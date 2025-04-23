@@ -50,14 +50,23 @@ python3 roz4nom.py --help
 ## Contoh Penggunaan
 
 python roz4nom.py --port-scanner example.com --port 443
+
 python roz4nom.py --subdomain-scan example.com --wordlist wordlist.txt
+
 python roz4nom.py --http-status http://target.com
+
 python roz4nom.py --sql-inject http://target.com/page.php?id=1
+
 python roz4nom.py --xss-scan http://target.com/search?q=
+
 python roz4nom.py --dns-lookup example.com
+
 python roz4nom.py --whois example.com
+
 python roz4nom.py --geoip 8.8.8.8
+
 python roz4nom.py --ssl-cert example.com
+
 python roz4nom.py --crawl http://target.com
 
 ## Catatan
